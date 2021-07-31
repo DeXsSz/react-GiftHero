@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas con el GiftHeroApp.jsx debe hacer match con el snapshot de GiftHeroApp 1`] = `
+<Fragment>
+  <h2>
+    GiftHeroApp
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol />
+</Fragment>
+`;
+
+exports[`Pruebas con el GiftHeroApp.jsx debe mostrar una lista de categoria 1`] = `
+<Fragment>
+  <h2>
+    GiftHeroApp
+  </h2>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GifGrid
+      category="One Punch"
+      key="One Punch"
+    />
+    <GifGrid
+      category="Dragon Ball"
+      key="Dragon Ball"
+    />
+  </ol>
+</Fragment>
+`;

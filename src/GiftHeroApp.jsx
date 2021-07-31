@@ -2,8 +2,8 @@ import React from 'react'
 import AddCategory from './component/AddCategory';
 import GifGrid from './component/GifGrid';
 
-const GiftHeroApp = () => {
-    const [categories, setCategories] = React.useState(['One Punch']);
+const GiftHeroApp = ({defaultCategories = []}) => {
+    const [categories, setCategories] = React.useState(defaultCategories);
     // const handleAdd = (e) => {
     //     e.preventDefault()
     //     setCategories([...categories, 'Hunter'])
